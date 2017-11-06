@@ -1,12 +1,8 @@
 <template lang="html">
   <div class="w3-container">
 
-    <div class="w3-container w3-leftbar w3-border-blue w3-center w3-pale-blue" style="margin-top: 10px;">
-      <h1>Vuejs Tabs</h1>
-    </div>
-
     <div class="w3-container w3-border w3-light-grey" style="margin-top: 20px;">
-      <p>This Tabs App was built with Vuejs and uses dynamic components and Velocity.js for the transitions.</p>
+      <p class="w3-center">Tabs using Vuejs Dynamic Components</p>
     </div>
 
 
@@ -14,17 +10,17 @@
       <button
       class="w3-button w3-blue w3-round"
       @click="selectedComponent = 'appFirstTab'"
-      >Latin</button>
+      >Lorem</button>
 
       <button
       class="w3-button w3-orange w3-round"
       @click="selectedComponent = 'appSecondTab'"
-      >Italian</button>
+      >Ipsum</button>
 
       <button
       class="w3-button w3-green w3-round"
       @click="selectedComponent = 'appThirdTab'"
-      >French</button>
+      >Dolor</button>
     </div>
 
     <transition
@@ -66,10 +62,10 @@ export default {
       selectedComponent.style.opacity = 0
     },
     enter(selectedComponent, done) {
-      Velocity(selectedComponent, 'transition.fadeIn', {delay: 2000, duration: 1000}, {stagger: 250}, {complete: done})
+      Velocity(selectedComponent, 'transition.fadeIn', {delay: 1500, duration: 1000}, {complete: done})
     },
     leave(selectedComponent, done) {
-      Velocity(selectedComponent, 'transition.slideLeftOut', {duration: 2000}, {complete: done})
+      Velocity(selectedComponent, 'transition.slideLeftOut', {duration: 1500}, {complete: done})
     }
   }
 }

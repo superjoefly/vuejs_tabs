@@ -1,6 +1,6 @@
 <template>
   <div class="w3-container w3-pale-blue">
-    <h3>Latin</h3>
+    <h3>Lorem</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae nibh luctus, dignissim augue vitae, aliquam eros. Suspendisse quis volutpat neque. Nunc semper, metus quis dictum iaculis, felis risus aliquet nunc, tempus euismod mi nisi in risus. Vivamus sed feugiat ligula. Phasellus viverra neque eget felis mattis, sit amet sodales nunc consequat. Aliquam finibus lobortis tellus. Cras a arcu eget nulla suscipit hendrerit. Cras erat metus, lobortis at aliquet quis, blandit at metus.</p>
 
     <p>Etiam nec diam tempor massa lacinia vulputate a ac enim. Maecenas malesuada ultricies commodo. Suspendisse rutrum tincidunt nulla. Praesent consequat condimentum faucibus. Ut tristique facilisis euismod. Aliquam in euismod urna. Suspendisse potenti. Donec congue vulputate ex, eu dapibus sapien facilisis quis.</p>
